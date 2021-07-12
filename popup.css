@@ -1,0 +1,79 @@
+aside div#popup {
+    display: none;
+    left: 5vw;
+    top: 5vh;
+    width: 400px;
+    background: linear-gradient(90deg, rgba(216, 227, 231, 1) 0%, rgba(248, 245, 241, 0.65) 100%);
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    padding: 20px;
+    font-size: 11pt;
+    text-align: justify;
+    transition: 0.9s;
+
+}
+
+aside div#popup span#close {
+    float: right;
+    position: relative;
+    top: -25px;
+    cursor: pointer;
+    color: #126e82;
+}
+
+aside div#popup p#mensagem {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    aside div#popup {
+        width: 90vw;
+        background: linear-gradient(90deg, rgba(216, 227, 231, 1) 0%, rgba(248, 245, 241, 0.65) 100%);
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+        box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+        padding: 20px;
+        font-size: 11pt;
+        text-align: justify;
+        transition: 0.9s;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        display: flex;
+    }
+
+    aside div#popup {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    aside div#popup {
+        width: 90vw;
+        background: linear-gradient(90deg, rgba(216, 227, 231, 1) 0%, rgba(248, 245, 241, 0.65) 100%);
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+        box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+        padding: 20px;
+        font-size: 11pt;
+        text-align: justify;
+        transition: 0.9s;
+    }
+}

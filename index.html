@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="form.css" />
+        <link rel="stylesheet" href="popup.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Squada+One&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div id="general-container">
+            <div id="container">
+                <div class="title-container"><h1>CALCULE SEU IMC</h1></div>
+                <label for="peso">Digite seu peso</label>
+                <input type="number" name="peso" id="peso" placeholder="peso..." />
+                <label for="peso">Digite sua altura em CM</label>
+                <input type="number" name="altura" id="altura" placeholder="altura..." />
+                <button id="calc-button" type="button">Calcular</button>
+            </div>
+        </div>
+
+        <aside>
+            <div id="popup">
+                <h1 id="resultado-imc">SEU IMC É 38</h1>
+                <span id="close">Fechar</span>
+                <p id="mensagem">VOCÊ ESTÁ A CIMA DO PESO</p>
+                <div class="dicas">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod dui orci. Nullam non ex
+                        ex. Ut in turpis ullamcorper, aliquam ipsum ut, molestie eros. Vestibulum ac mi iaculis,
+                        tristique ante molestie, tempus erat. Etiam tincidunt dictum elit, efficitur finibus ipsum
+                        aliquet et. Donec consequat ac augue tempus suscipit. Donec posuere pretium odio cursus
+                        facilisis. Donec quam arcu, pretium sit amet porta et, imperdiet ut eros. Nullam auctor tempor
+                        turpis, ut vehicula augue maximus nec. Cras mattis sit amet urna nec interdum. Proin lectus
+                        dolor, congue ac ante consectetur, consectetur imperdiet massa. Aliquam risus elit, rutrum vel
+                        posuere eget, convallis at lacus. Nullam nec elementum turpis.
+                    </p>
+                </div>
+            </div>
+        </aside>
+        <script src="app.js"></script>
+        <script src="scripts.js"></script>
+    </body>
+</html>
